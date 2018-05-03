@@ -22,6 +22,14 @@ Available on [jsdelivr](https://cdn.jsdelivr.net/npm/vue-event-manager@2.0.1) or
 <script src="https://cdn.jsdelivr.net/npm/vue-event-manager@2.0.1"></script>
 ```
 
+To install it as a module.
+```js
+import VueEventManager from 'vue-event-manager';
+
+VueEventManager.install(Vue);
+```
+
+
 ## Example
 Try the example on [jsfiddle](https://jsfiddle.net/gh/get/library/pure/pagekit/vue-event-manager/tree/master/examples/demo/).
 ```js
